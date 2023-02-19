@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{82E78B7B-01B4-42EE-8E92-4F7F910F8B60}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gestion_de_conge__</RootNamespace>
+    <AssemblyName>Gestion_de_conge__</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActionConfirm.Designer.cs">
+      <DependentUpon>ActionConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administration.Designer.cs">
+      <DependentUpon>Administration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoutDemande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoutDemande.Designer.cs">
+      <DependentUpon>AjoutDemande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjoutUtilisateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjoutUtilisateur.Designer.cs">
+      <DependentUpon>AjoutUtilisateur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compte.Designer.cs">
+      <DependentUpon>Compte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Demande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Demande.Designer.cs">
+      <DependentUpon>Demande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MesDemandes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MesDemandes.Designer.cs">
+      <DependentUpon>MesDemandes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilisateur.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ActionConfirm.resx">
+      <DependentUpon>ActionConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administration.resx">
+      <DependentUpon>Administration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoutDemande.resx">
+      <DependentUpon>AjoutDemande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjoutUtilisateur.resx">
+      <DependentUpon>AjoutUtilisateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compte.resx">
+      <DependentUpon>Compte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Demande.resx">
+      <DependentUpon>Demande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MesDemandes.resx">
+      <DependentUpon>MesDemandes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Summer-holiday-vector-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\99166-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\safe-lock-keyhole-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\139500-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\53310.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\580120982.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\téléchargement %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\téléchargement.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

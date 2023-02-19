@@ -1,0 +1,14 @@
+C:\Users\mizou\Desktop\Gestion de congé\Gestion_de_conge__\Gestion_de_conge__\bin\Debug\Gestion_de_conge__.exe
+C:\Users\mizou\Desktop\Gestion de congé\Gestion_de_conge__\Gestion_de_conge__\bin\Debug\Gestion_de_conge__.pdb
+C:\Users\mizou\Desktop\Gestion de congé\Gestion_de_conge__\Gestion_de_conge__\obj\x86\Debug\Gestion_de_conge__.ActionConfirm.resources
+C:\Users\mizou\Desktop\Gestion de congé\Gestion_de_conge__\Gestion_de_conge__\obj\x86\Debug\Gestion_de_conge__.Administration.resources
+C:\Users\mizou\Desktop\Gestion de congé\Gestion_de_conge__\Gestion_de_conge__\obj\x86\Debug\Gestion_de_conge__.AjoutDemande.resources
+C:\Users\mizou\Desktop\Gestion de congé\Gestion_de_conge__\Gestion_de_conge__\obj\x86\Debug\Gestion_de_conge__.AjoutUtilisateur.resources
+C:\Users\mizou\Desktop\Gestion de congé\Gestion_de_conge__\Gestion_de_conge__\obj\x86\Debug\Gestion_de_conge__.Compte.resources
+C:\Users\mizou\Desktop\Gestion de congé\Gestion_de_conge__\Gestion_de_conge__\obj\x86\Debug\Gestion_de_conge__.Demande.resources
+C:\Users\mizou\Desktop\Gestion de congé\Gestion_de_conge__\Gestion_de_conge__\obj\x86\Debug\Gestion_de_conge__.Login.resources
+C:\Users\mizou\Desktop\Gestion de congé\Gestion_de_conge__\Gestion_de_conge__\obj\x86\Debug\Gestion_de_conge__.MesDemandes.resources
+C:\Users\mizou\Desktop\Gestion de congé\Gestion_de_conge__\Gestion_de_conge__\obj\x86\Debug\Gestion_de_conge__.Properties.Resources.resources
+C:\Users\mizou\Desktop\Gestion de congé\Gestion_de_conge__\Gestion_de_conge__\obj\x86\Debug\Gestion_de_conge__.csproj.GenerateResource.Cache
+C:\Users\mizou\Desktop\Gestion de congé\Gestion_de_conge__\Gestion_de_conge__\obj\x86\Debug\Gestion_de_conge__.exe
+C:\Users\mizou\Desktop\Gestion de congé\Gestion_de_conge__\Gestion_de_conge__\obj\x86\Debug\Gestion_de_conge__.pdb
